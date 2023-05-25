@@ -1,0 +1,39 @@
+body{
+    width:100vw;
+    height:100vh;
+    text-align:center;
+  }
+  
+  .question_area{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .boxes{
+    width:50vw;
+  }
+
+  .progress_container{
+    width:100%;
+    align-self: center;
+  }
+
+  .question_container{
+    align-self: center;
+  }
+  
+  .question_text{
+    font-size:1.5rem;
+    font-weight:350;
+  }
+ 
+  @media (max-width: 575.98px){.question_text{font-size:20px;}}
+  .buttonbox{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .insta_link {
+        text-decoration: none;
+    }
